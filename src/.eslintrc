@@ -1,0 +1,9 @@
+{
+  "overrides": [
+    {
+      "env": {
+        "jest": true
+      }
+    }
+  ]
+}

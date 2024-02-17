@@ -2,11 +2,10 @@ import { isEqual } from 'lodash';
 
 type ReactModule = {
   useEffect: {
-    mock: {
-      calls: unknown[][];
-    };
+    mock: { calls: unknown[][]; };
   };
 };
+
 /**
  * getEffect(prereqs, reactModule)
  * Returns the callbacks passed to useEffect mock call with the given prerequisites key,
